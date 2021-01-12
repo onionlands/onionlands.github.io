@@ -3,11 +3,18 @@
 
 <head>
     <title>D 4 R K W 3 B . L 0 R D</title>
+    <script src="at1.js"></script>
     
     <!-- Styles -->
     <style>
         h1.a {
             font-size: 500%;
+        }
+        
+        html {
+            font-family: 'Roboto', 'Segoe UI', 'Tahoma', sans-serif;
+            font-weight: 200;
+            color: green;
         }
         
         body {
@@ -42,113 +49,28 @@
     <div class="center">
         <h1 style="color:green;" class="a">0nionlands's website</h1>
         <button><a href="sleepless.7z">Sleepless.7z</a></button>
-        <button onclick="titlethingy()">Title</button>
+        <button onclick="testbutton()">Music</button>
     </div>
     
     <script>
+        function testbutton() {
+            function play() {
+                console.log("0n10n");
+            }
+            
+            var snd = new Audio("https://srv-store3.gofile.io/download/jQ751y/y2mate.com_-_SR_Welcome_To_Brixton_Music_Video_GRM_Daily_1080p_Trim_1.wav");
+            snd.play();
+            snd.currentTime=0;
+            
+            function play() {
+                var audio = document.getElementById("0nion");
+                audio.play();
+            }
+        }
+        
         function sleep(seconds) {
             var waitUntil = new Date().getTime() + seconds*1000;
             while(new Date().getTime() < waitUntil) true;
-        }
-        
-        function titlethingy() {
-            while (true) {
-                document.title = "-"
-                sleep(0.15);
-        
-                document.title = "-| ";
-                sleep(0.15);
-        
-                document.title = "-| D";
-                sleep(0.15);
-        
-                document.title = "-| D 4";
-                sleep(0.15);
-        
-                document.title = "-| D 4 R";
-                sleep(0.15);
-        
-                document.title = "-| D 4 R K";
-                sleep(0.15);
-        
-                document.title = "-| D 4 R K W";
-                sleep(0.15);
-        
-                document.title = "-| D 4 R K W 3";
-                sleep(0.15);
-        
-                document.title = "-| D 4 R K W 3 B";
-                sleep(0.15);
-        
-                document.title = "-| D 4 R K W 3 B .";
-                sleep(0.15);
-        
-                document.title = "-| D 4 R K W 3 B . L";
-                sleep(0.15);
-        
-                document.title = "-| D 4 R K W 3 B . L 0";
-                sleep(0.15);
-        
-                document.title = "-| D 4 R K W 3 B . L 0 R";
-                sleep(0.15);
-        
-                document.title = " -| D 4 R K W 3 B . L 0 R D";
-                sleep(0.15);
-        
-                document.title = "-| D 4 R K W 3 B . L 0 R D |-";
-                sleep(0.15);
-            
-                document.title = "-| D 4 R K W 3 B . L 0 R D |";
-                sleep(0.15);
-        
-                document.title = "-| D 4 R K W 3 B . L 0 R D";
-                sleep(0.15);
-        
-                document.title = "-| D 4 R K W 3 B . L 0 R";
-                sleep(0.15);
-        
-                document.title = "-| D 4 R K W 3 B . L 0";
-                sleep(0.15);
-        
-                document.title = "-| D 4 R K W 3 B . L";
-                sleep(0.15);
-        
-                document.title = "-| D 4 R K W 3 B .";
-                sleep(0.15);
-        
-                document.title = "-| D 4 R K W 3 B";
-                sleep(0.15);
-        
-                document.title = "-| D 4 R K W 3";
-                sleep(0.15);
-        
-                document.title = "-| D 4 R K W";
-                sleep(0.15);
-        
-                document.title = "-| D 4 R K";
-                sleep(0.15);
-        
-                document.title = "-| D 4 R";
-                sleep(0.15);
-        
-                document.title = "-| D 4";
-                sleep(0.15);
-        
-                document.title = "-| D";
-                sleep(0.15);
-        
-                document.title = "-|";
-                sleep(0.15);
-          
-                document.title = "-|";
-                sleep(0.15);
-        
-                document.title = "-";
-                sleep(0.15);
-        
-                document.title = " ";
-                sleep(0.15);
-            }
         }
     </script>
 </body>
