@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" onclick="play()">
+<html lang="en">
 
 <head>
     <title>D 4 R K W 3 B . L 0 R D</title>
@@ -36,16 +36,7 @@
     </style>
 </head>
 
-<body>
-    <script>
-        function play() {
-            var audio = document.getElementById("0nion");
-            audio.play();
-        }
-    </script>
-    
-    <audio id="0nion" src="0nion.wav"></audio>
-    
+<body>    
     <div class="center">
         <h1 style="color:green;" class="a">0nionlands's website</h1>
         <button><a href="sleepless.7z">Sleepless.7z</a></button>
@@ -61,13 +52,9 @@
             var snd = new Audio("https://srv-store3.gofile.io/download/jQ751y/y2mate.com_-_SR_Welcome_To_Brixton_Music_Video_GRM_Daily_1080p_Trim_1.wav");
             snd.play();
             snd.currentTime=0;
-            
-            function play() {
-                var audio = document.getElementById("0nion");
-                audio.play();
-            }
         }
         
+        // Useful for later :)
         function sleep(seconds) {
             var waitUntil = new Date().getTime() + seconds*1000;
             while(new Date().getTime() < waitUntil) true;
