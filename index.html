@@ -17,6 +17,15 @@
             padding: 0;
             margin: 0;
         }
+        
+        .center {
+            margin: 0;
+            position: absolute;
+            top: 50%; 
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
     </style>
 </head>
 
@@ -30,10 +39,11 @@
     
     <audio id="0nion" src="0nion.wav"></audio>
     
-    <h1 style="color:green;" class="a">0nionlands's website</h1>
-    
-    <button><a href="sleepless.7z">Sleepless.7z</a></button>
-    <button onclick="titlethingy()">Title</button>
+    <div class="center">
+        <h1 style="color:green;" class="a">0nionlands's website</h1>
+        <button><a href="sleepless.7z">Sleepless.7z</a></button>
+        <button onclick="titlethingy()">Title</button>
+    </div>
     
     <script>
         function sleep(seconds) {
